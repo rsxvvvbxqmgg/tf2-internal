@@ -1,0 +1,14 @@
+[project]
+name = "tf2-internal"
+version = "0.9.4"
+description = "Team Fortress 2 Hacks, TF2 Cheats & Aimbot - internal overlay toolkit for Windows"
+requires-python = ">=3.11"
+authors = [{name = "tf2-internal contributors"}]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"

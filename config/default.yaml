@@ -1,0 +1,31 @@
+# tf2-internal default config
+offsets_path: offsets/current.json
+tick_rate: 144
+
+aimbot:
+  enabled: true
+  key: mouse4
+  fov: 8.0
+  smooth: 3.2
+  target_bone: head
+  team_check: true
+  visibility_check: true
+
+triggerbot:
+  enabled: true
+  key: shift
+  delay_ms: 40
+  hitbox: head
+
+esp:
+  enabled: true
+  box: true
+  health_bar: true
+  name: true
+  distance: 400.0
+
+overlay:
+  width: 1920
+  height: 1080
+  vsync: false
+  font: Consolas
